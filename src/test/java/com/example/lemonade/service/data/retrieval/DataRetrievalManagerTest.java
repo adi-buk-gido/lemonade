@@ -1,4 +1,4 @@
-package com.example.shield.service.data.retrieval;
+package com.example.lemonade.service.data.retrieval;
 
 import org.junit.Before;
 import org.junit.jupiter.api.Test;

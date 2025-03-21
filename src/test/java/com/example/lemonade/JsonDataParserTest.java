@@ -1,4 +1,4 @@
-package com.example.shield;
+package com.example.lemonade;
 
 import com.example.lemonade.model.conversation.RoomConversation;
 import com.fasterxml.jackson.databind.ObjectMapper;

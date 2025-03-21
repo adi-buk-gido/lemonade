@@ -1,4 +1,4 @@
-package com.example.shield.service.data.parser;
+package com.example.lemonade.service.data.parser;
 
 
 import static org.junit.jupiter.api.Assertions.*;
