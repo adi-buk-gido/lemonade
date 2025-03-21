@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileDump>
+    <Version>IBXML 1.3</Version>
+    <Conversation Perspective="UserView" RoomType="C">
+        <RoomID>CHAT-123456</RoomID>
+        <StartTime>08/27/2023 10:00:00</StartTime>
+        <ParticipantEntered>
+            <User>
+                <LoginName>JohnDoe</LoginName>
+            </User>
+        </ParticipantEntered>
+        <!-- Missing closing tags for Conversation and FileDump -->

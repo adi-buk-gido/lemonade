@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: data-retrieval
+
+  # AWS S3 Configuration
+  cloud:
+    aws:
+      s3:
+        access-key: ${AWS_ACCESS_KEY}  # Using Environment Variable
+        secret-key: ${AWS_SECRET_KEY}  # Using Environment Variable
+        region: us-east-1  # Default Region (Update as needed)
+
+  # Logging Configuration
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic: ${SPRING_KAFKA_TOPIC_ENRICHMENT}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
