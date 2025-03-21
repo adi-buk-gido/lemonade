@@ -3,12 +3,14 @@ package com.example.shield.service.data.parser;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.example.shield.model.conversation.Conversation;
-import com.example.shield.model.conversation.RoomConversation;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
+
+import com.example.lemonade.model.conversation.Conversation;
+import com.example.lemonade.model.conversation.RoomConversation;
+import com.example.lemonade.service.data.parser.XMLParser;
 
 import java.io.InputStream;
 

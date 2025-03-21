@@ -1,6 +1,6 @@
 package com.example.shield;
 
-import com.example.shield.model.conversation.RoomConversation;
+import com.example.lemonade.model.conversation.RoomConversation;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

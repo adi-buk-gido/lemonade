@@ -1,17 +1,20 @@
 package com.example.shield.service.data.retrieval;
 
-import com.example.shield.dao.DataFilesDaoImp;
-import com.example.shield.model.conversation.RoomConversation;
-import com.example.shield.model.file.FileProcessStatus;
-import com.example.shield.model.file.InputMetadata;
-import com.example.shield.model.file.SourceType;
-import com.example.shield.service.kafka.KafkaProducerService;
-
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.*;
 import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.example.lemonade.dao.DataFilesDaoImp;
+import com.example.lemonade.model.conversation.RoomConversation;
+import com.example.lemonade.model.file.FileProcessStatus;
+import com.example.lemonade.model.file.InputMetadata;
+import com.example.lemonade.model.file.SourceType;
+import com.example.lemonade.service.data.retrieval.DataRetrievalManager;
+import com.example.lemonade.service.data.retrieval.DataRetrievalServiceFactory;
+import com.example.lemonade.service.data.retrieval.IDataRetrievalService;
+import com.example.lemonade.service.kafka.KafkaProducerService;
 
 import java.io.InputStream;
 import static org.junit.jupiter.api.Assertions.assertThrows;
